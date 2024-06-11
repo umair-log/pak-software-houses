@@ -9,11 +9,11 @@ use App\Models\SoftwareHouse;
 // });
 
 
-Route::get('/import-csv', function () {
-    return view('import');
-});
+// Route::get('/import-csv', function () {
+//     return view('import');
+// });
 
-Route::post('/import-csv', [ImportController::class, 'import'])->name('import.csv');
+// Route::post('/import-csv', [ImportController::class, 'import'])->name('import.csv');
 
 // Route::get('/software-houses', function () {
 //     return view('software_houses');
