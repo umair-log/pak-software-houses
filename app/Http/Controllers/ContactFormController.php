@@ -24,7 +24,7 @@ class ContactFormController extends Controller
         }
 
         try {
-            Mail::to('cadmiumagent@gmail.com, cadmiumsolutions@gmail.com , Cadmiumontop1@gmail.com')
+            Mail::to('cadmiumsolutions@gmail.com,buttjeefull77@gmail.com')
                 ->send(new ContactFormMail($request->only(['name','email','message'])));
 
             return response()->json([
